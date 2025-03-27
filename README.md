@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# 计时器应用
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 简介
 
-## Available Scripts
+这是一个基于 React 的计时器应用，支持计时功能、记录历史时间以及动态翻牌动画效果。项目使用了 TailwindCSS 进行样式设计，并结合了 Framer Motion 实现动画效果。
 
-In the project directory, you can run:
+## 功能
 
-### `npm start`
+- 计时功能（开始、暂停、重置）
+- 历史记录查看
+- 动态翻牌动画效果
+- 支持全屏显示和背景切换
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 运行方法
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. 克隆项目
 
-### `npm test`
+```
+git clone https://github.com/Harley-Red/timeCountOnline.git
+cd timeCountOnline
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. 安装依赖
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. 启动开发服务器
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+打开浏览器访问[ http://localhost:3000](https://localhost:3000)。
 
-### `npm run eject`
+### 4. 构建生产版本
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm run build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+构建后的文件将生成在 `build` 文件夹中。
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 技术栈
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React
+- TailwindCSS
+- Framer Motion
+- TypeScript（部分组件）
 
-## Learn More
+## 部署许可证
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+本项目基于 MIT 许可证开源。
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Timer Application
 
-### Code Splitting
+## Introduction
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This is a React-based timer application that supports timing functionality, recording history, and dynamic flip card animations. The project uses TailwindCSS for styling and Framer Motion for animations.
 
-### Analyzing the Bundle Size
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Timer functionality (Start, Pause, Reset)
+- View historical records
+- Dynamic flip card animation
+- Supports fullscreen display and background switching
 
-### Making a Progressive Web App
+## How to Run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 1. Clone the Project
 
-### Advanced Configuration
+```
+git clone https://github.com/Harley-Red/timeCountOnline.git
+cd timeCountOnline
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 2. Install Dependencies
 
-### Deployment
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 3. Start the Development Server
 
-### `npm run build` fails to minify
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open your browser and visit [http://localhost:3000](https://localhost:3000).
+
+### 4. Build for Production
+
+```
+npm run build
+```
+
+The built files will be generated in the `build` folder.
+
+## Tech Stack
+
+- React
+- TailwindCSS
+- Framer Motion
+- TypeScript (for some components)
+
+## Deployment
+
+The project is configured for GitHub Pages and can be deployed using the following command:
+
+npm run deploy
+
+After deployment, the app can be accessed at:
+https://Harley-Red.github.io/timeCountOnlie/my-react-app
+
+## License
+
+This project is open-sourced under the MIT license.
